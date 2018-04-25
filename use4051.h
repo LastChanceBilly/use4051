@@ -8,12 +8,13 @@
 
 #include "Arduino.h"
 
-class read4051{
+class use4051{
   public:
-    //Constructor for the class 
-    read4051(int A, int B, int C, int analogPin);
+    //Constructor for the class
+    use4051(int A, int B, int C, int analogPin);
     //Reading metod
-    int getValue4051(byte index);
+    int read4051(byte index);
+    void write4051(byte index, int value);
   private:
     int _a;
     int _b;
