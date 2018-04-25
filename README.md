@@ -1,4 +1,4 @@
-# read4051
+# use4051
 An arduino library for the CD4051 analog multiplexer
 ## Usage 
 First create an object for the library with the parameters required (Address pins (S0, S1, S2), and the analogPin that will read the analog data coming of the chip).
@@ -20,7 +20,9 @@ Then you just need to call the getValue4051(byte index) function as a variable v
 ### i.e:
   ```
   for(byte i =1; i <8; i++){
-    Serial.println(sensors.getValue4051(i));
+    Serial.println(sensors.read4051(i));
     delay(500);
   }
-  ```
+  ```
+Or write4051(int pin, int value, int optional_pin =-1)
+
