@@ -24,5 +24,6 @@ Then you just need to call the getValue4051(byte index) function as a variable v
     delay(500);
   }
   ```
+  
 Or write4051(int pin, int value, int optional_pin =-1)
 
