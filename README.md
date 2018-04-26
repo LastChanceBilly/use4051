@@ -1,7 +1,7 @@
 # use4051
 An arduino library for the CD4051 analog multiplexer
 ## Usage
-First create an object for the library with the parameters required (Address pins (S0, S1, S2), and the analogPin that will read the analog data coming of the chip).
+First create an object for the library with the parameters required (Address pins (S0, S1, S2), and the analogPin that will read/write the analog data coming from the chip/arduino).
 
 
   ```
