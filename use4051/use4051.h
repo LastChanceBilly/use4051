@@ -14,7 +14,7 @@ class use4051{
     use4051(int A, int B, int C, int analogPin);
     //Reading metod
     int read4051(byte index);
-    void write4051(byte index, int value);
+    void write4051(byte index, int value, int optional_pin = -1);
   private:
     int _a;
     int _b;
