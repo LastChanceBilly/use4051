@@ -33,7 +33,7 @@ int use4051::read4051(byte index){
   //Return the value of pin(analogPin)
   return(analogRead(_analogPin));
 }
-void use4051::write4051(byte index, int value,  int optional_pin = -1){
+void use4051::write4051(byte index, int value,  int optional_pin){
   //The same thing as adove, but instead it uses PWM to
   //write an analog value to the chip
   int pins[] = {_a, _b, _c};
